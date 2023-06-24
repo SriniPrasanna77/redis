@@ -1,0 +1,11 @@
+﻿User ID,Name,Password,User Email,Status,Tenant_ID
+user:1,Srini P,test@123,srini.p@testmail.com,Active,tenant:1
+user:2,Prajwal S,test@123,prajwal.s@testmail.com,Active,tenant:2
+user:3,Skandha S,test@123,skandha.s@testmail.com,Active,tenant:3
+user:4,Prathiksha S,test@123,prathiksha.s@testmail.com,Active,tenant:8
+user:5,Kshama S,test@123,kshama.s@testmail.com,Active,tenant:9
+user:6,Saaraswathi P,test@123,saaraswathi.p@testmail.com,Active,tenant:10
+user:7,Prabhakara V,test@123,prabhakara.v@testmail.com,Active,tenant:2
+user:8,Samhitha P,test@123,samhitha.p@testmail.com,Active,tenant:6
+user:9,Samyuktha P,test@123,samyuktha.p@testmail.com,Active,tenant:4
+user:10,Kavya P,test@123,kavya.p@testmail.com,Active,tenant:5

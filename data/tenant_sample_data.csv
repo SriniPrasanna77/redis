@@ -1,0 +1,11 @@
+﻿Tenant ID,Name,Status,Data Residency
+tenant:1,KingsleyGate,Active,Ohio
+tenant:2,Ignyte,Active,Ohio
+tenant:3,Oracle,Active,NewYork
+tenant:4,Apple,Active,NewYork
+tenant:5,Google,Active,NewYork
+tenant:6,Microsoft,Active,San Francisco
+tenant:7,Facebook,Active,San Francisco
+tenant:8,Netflix,Active,San Francisco
+tenant:9,Amazon,Active,Houston
+tenant:10,Stripe,Active,Houston
