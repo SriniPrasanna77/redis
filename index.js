@@ -2,13 +2,12 @@ const redis = require('redis');
 const schemaFieldTypes = require('redis').SchemaFieldTypes;
 // import {AggregateSteps, AggregateGroupByReducers, createClient, SchemaFieldTypes} from 'redis';
 
-
-const client = redis.createClient()
+const redisClient = async () => {
+    const client = redis.createClient()
     .on('error', err => {
         console.log('Redis Client Error', err);
     });
-
-const redisClient = async () => {
+    
     await client.connect();
     console.log('client connected');
     return client;
@@ -80,5 +79,5 @@ redisClient().then((rc) => {
             searchUser(rc);
         })
     })
-})
+});
 
